@@ -1,0 +1,57 @@
+body {
+
+    background-color:#00072D;
+}
+.navbar navbar-expand-lg navbar-light bg-light {
+    background-color:#00072D;
+}
+.text {
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 700%;
+  
+    position: absolute;
+  
+    top: 50%; 
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {color: white;}
+    to {color: yellow;}
+   
+  }
+
+.beginning{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+
+}
+
+#buttton {
+    width: 20%;
+    height: 50px;
+
+    position: absolute;
+    
+
+    top: 80%;
+    left: 40%;
+}
+
+* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
