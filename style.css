@@ -27,8 +27,6 @@ body {
 .topnav a.pagename {
   background-color: #0B3954;
   color: white;
-  padding: 14px 14px;
-  font-size: 19px;
 }
 
 .topnav a.active {
