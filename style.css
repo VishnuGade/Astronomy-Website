@@ -20,12 +20,17 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #77ADD4;
+  background-color: #ddd;
+  color: white;
+}
+
+.topnav a.pagename {
+  background-color: #0B3954;
   color: white;
 }
 
 .topnav a.active {
-  background-color: #0B3954;
+  background-color: #77ADD4;
   color: white;
 }
 
