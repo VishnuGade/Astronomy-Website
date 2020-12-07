@@ -6,7 +6,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #00072D;
+  background-color: #A1A6B4;
 }
 
 .topnav a {
@@ -20,12 +20,12 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #B4D2E7;
   color: white;
 }
 
 .topnav a.active {
-  background-color: #2196F3;
+  background-color: #0B3954;
   color: white;
 }
 
