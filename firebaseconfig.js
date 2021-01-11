@@ -15,6 +15,8 @@ var storage = firebase.storage();
 var storageRef = storage.ref();
 
 var spaceRef = storageRef.child('BlackHole.png');
+var path = spaceRef.fullPath;
+var gsReference = storage.refFromURL('gs://astronomy-website-6bbcf.appspot.com')
 storageRef.child('BlackHole.png').getDownloadURL().then(function(url){
    var astroimg = url
    document.querySelector('img').src = astroimg;
