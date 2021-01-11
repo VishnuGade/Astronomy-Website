@@ -11,4 +11,12 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 
-var storage = firebase.storage();
+var storageRef = firebase.storage();
+
+var spaceRef = storageRef.child('AquqrxpMGMq8ok9Xf9HF9k.jpg');
+var path = spaceRef.fullPath;
+var gsReference = storage.refFromURL('gs://astronomy-website-6bbcf.appspot.com')
+
+storageRef.child('AquqrxpMGMq8ok9Xf9HF9k.jpg').getDownloadURL().then(function(url) {
+    var test = url;
+}).catch(function(error) {
