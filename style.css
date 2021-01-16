@@ -108,7 +108,7 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
-  text-align:center;
+  text-align: center;
 }
 
 /* Hide the images by default */
