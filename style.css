@@ -112,9 +112,9 @@ img {
 
 /* Position the image container (needed to position the left and right arrows) */
 .gallery-container {
-  margin: 50px;
   position: relative;
   max-width: 80%;
+  margin: auto;
 }
 
 /* Hide the images by default */
