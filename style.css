@@ -28,6 +28,9 @@ div {
   border: 3px solid #FEDC7C;
   padding: 10px;
 }
+.astroimg-container {
+  position: relative;
+}
 
 
 /* Nav Bar Start */
