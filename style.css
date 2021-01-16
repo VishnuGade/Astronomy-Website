@@ -1,8 +1,23 @@
 * {box-sizing: border-box;}
 body {
+  background-color: Black;
   margin: 0;
   font-family: sans-serif;
 }
+
+div {
+  color: white;
+}
+
+
+/* AstroUpdates */
+.Astrobite {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #FEDC7C;
+  padding: 10px;
+}
+
 
 /* Nav Bar Start */
 .topnav {
@@ -78,15 +93,6 @@ body {
   }
 }
 /* Nav Bar End */
-
-
-/* AstroUpdates */
-.Astrobite {
-  margin: auto;
-  width: 60%;
-  border: 3px solid #FEDC7C;
-  padding: 10px;
-}
 
 
 /* Gallery Start */
