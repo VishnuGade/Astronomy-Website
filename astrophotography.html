@@ -13,6 +13,7 @@
 	<!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
 	<!-- <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script> -->
 	<!-- <script src="firebaseconfig.js"defer></script> -->
+	<script type="text/javascript" src="gallery-function.js"></script>
 </head>
 	
 <body>
@@ -22,6 +23,68 @@
 		<a href="/Astronomy-Website/livefeeds">Live Feeds</a>
     		<a href="#" class="active">Astrophotography</a>
 	</div>
+	
+	<h2 style="text-align:center">Slideshow Gallery</h2>
+	
+	<div class="container">
+	  <div class="mySlides">
+	    <div class="numbertext">1 / 6</div>
+	    <img src="Images/BlackHole.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">2 / 6</div>
+	    <img src="Images/BlackHole.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">3 / 6</div>
+	    <img src="Images/BlackHole.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">4 / 6</div>
+	    <img src="Images/BlackHole.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">5 / 6</div>
+	    <img src="Images/BlackHole.png" style="width:100%">
+	  </div>
+
+	  <div class="mySlides">
+	    <div class="numbertext">6 / 6</div>
+	    <img src="Images/BlackHole.png" style="width:100%">
+	  </div>
+
+	  <a class="prev" onclick="plusSlides(-1)">❮</a>
+	  <a class="next" onclick="plusSlides(1)">❯</a>
+
+	  <div class="caption-container">
+	    <p id="caption"></p>
+	  </div>
+
+	  <div class="row">
+	    <div class="column">
+	      <img class="demo cursor" src="Images/BlackHole.png" style="width:100%" onclick="currentSlide(1)" alt="Black Hole 1">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/BlackHole.png" style="width:100%" onclick="currentSlide(2)" alt="Black Hole 2">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/BlackHole.png" style="width:100%" onclick="currentSlide(3)" alt="Black Hole 2">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/BlackHole.pngg" style="width:100%" onclick="currentSlide(4)" alt="Black Hole 2">
+	    </div>
+	    <div class="column">
+	      <img class="demo cursor" src="Images/BlackHole.png" style="width:100%" onclick="currentSlide(5)" alt="Black Hole 2">
+	    </div>    
+	    <div class="column">
+	      <img class="demo cursor" src="Images/BlackHole.png" style="width:100%" onclick="currentSlide(6)" alt="Black Hole 2">
+	    </div>
+	  </div>
+	</div>	
 
 </body>
 </html>
