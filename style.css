@@ -163,7 +163,6 @@ img {
 
 /* Six columns side by side */
 .column {
-  padding: 10px;
   float: left;
   width: 16.66%;
 }
