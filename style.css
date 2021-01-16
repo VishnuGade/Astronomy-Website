@@ -1,3 +1,9 @@
+* {box-sizing: border-box;}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
 .Astrobite {
   margin: auto;
   width: 60%;
@@ -7,12 +13,6 @@
 
 
 /* Nav Bar Start */
-* {box-sizing: border-box;}
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
-
 .topnav {
   overflow: hidden;
   background-color: #A1A6B4;
