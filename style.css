@@ -14,6 +14,7 @@ body {
 .container {
   position: relative;
   text-align: center;
+  max-width: 100%
 }
 
 div {
@@ -23,7 +24,7 @@ div {
 /* AstroUpdates */
 .Astrobite {
   margin: auto;
-  width: 60%;
+  width: 75%;
   border: 3px solid #FEDC7C;
   padding: 10px;
 }
