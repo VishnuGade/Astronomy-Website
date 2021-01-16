@@ -96,7 +96,7 @@ img {
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
-  position: relative;
+  position: absolute;
 }
 
 /* Hide the images by default */
@@ -128,7 +128,7 @@ img {
 
 /* Position the "next button" to the right */
 .next {
-  right: 16px;
+  right: 0;
   border-radius: 3px 0 0 3px;
 }
 
