@@ -27,7 +27,7 @@ div {
   width: 75%;
   border: 3px solid #FEDC7C;
   padding: 10px;
-  margin-bottom: 50px
+  margin-bottom: 25px
 }
 .astroimg-container {
   position: relative;
@@ -120,7 +120,7 @@ img {
   position: relative;
   max-width: 80%;
   margin: auto;
-  margin-bottom: 50px
+  margin-bottom: 25px
 }
 
 /* Hide the images by default */
