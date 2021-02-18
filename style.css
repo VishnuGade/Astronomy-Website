@@ -21,7 +21,9 @@ div {
   color: white;
 }
 
-/* AstroUpdates */
+
+
+/* AstroUpdates End */
 .Astrobite {
   margin: auto;
   width: 75%;
@@ -32,6 +34,8 @@ div {
 .astroimg-container {
   position: relative;
 }
+/* AstroUpdates Start */
+
 
 
 /* Nav Bar Start */
@@ -108,6 +112,7 @@ div {
   }
 }
 /* Nav Bar End */
+
 
 
 /* Gallery Start */
