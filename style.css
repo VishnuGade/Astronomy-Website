@@ -23,7 +23,7 @@ div {
 
 
 
-/* AstroUpdates End */
+/* AstroUpdates Start */
 .Astrobite {
   margin: auto;
   width: 75%;
@@ -34,7 +34,7 @@ div {
 .astroimg-container {
   position: relative;
 }
-/* AstroUpdates Start */
+/* AstroUpdates End */
 
 
 
@@ -123,7 +123,7 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .gallery-container {
   position: relative;
-  max-width: 80%;
+  max-height: 60%;
   margin: auto;
   margin-bottom: 25px
 }
