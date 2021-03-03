@@ -123,7 +123,7 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .gallery-container {
   position: relative;
-  max-width: 80%;
+  max-width: 70%;
   max-height: 60%;
   margin: auto;
   margin-bottom: 25px
